@@ -2,7 +2,7 @@
 
 class Response
 {
-    private array $rotas = ['/', '/cadastrar-ingresso'];
+    private array $rotas = ['/', '/saude'];
     public function init(string $uri, string $version): array
     {
         if(in_array($uri, $this->rotas)) {
