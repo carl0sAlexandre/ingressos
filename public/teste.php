@@ -1,2 +1,2 @@
 <?php
-    echo "teste";
+    echo "Novo teste";
